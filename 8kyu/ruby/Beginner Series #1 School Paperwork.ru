@@ -5,7 +5,7 @@
 # Example:
 # n= 5, m=5: 25
 # n=-5, m=5:  0
-# Waiting for translations and Feedback! Thanks!
+# Waiting for translations and Feedback! Thanks
 
 def paperwork(n, m)
     if (n<0)
