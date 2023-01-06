@@ -15,27 +15,4 @@
 // [1, 2, 2, 20, 6, 20, 2, 6, 2]  -->  4
 // ...because there are 4 pairs: 2, 20, 6 and 2 (again)
 
-using System.Collections.Generic;
-
-class Kata
-{
-    public static int Duplicates(int[] a)
-    {
-       HashSet<int> unmatched = new HashSet<int>();
-       int pairCount = 0;
-      
-      foreach(int n in a)
-      {
-          if(unmatched.Contains(n))
-            {
-            ++pairCount;
-            unmatched.Remove(n);
-          }
-          else{
-            unmatched.Add(n);
-          }
-        
-      }
-      return pairCount;
-    }
-}
+// https://www.codewars.com/kata/5c55ad8c9d76d41a62b4ede3

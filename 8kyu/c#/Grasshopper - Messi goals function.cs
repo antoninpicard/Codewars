@@ -12,13 +12,4 @@
 
 // 5, 10, 2  -->  17
 
-public class Kata
-{
-  public static int GetGoals(int laLigaGoals, int copaDelReyGoals, int championsLeagueGoals)
-  {
-    // code goes here
-    int value = laLigaGoals + copaDelReyGoals + championsLeagueGoals;
-    return value;
-     
-  }
-}
+// https://www.codewars.com/kata/55f73be6e12baaa5900000d4

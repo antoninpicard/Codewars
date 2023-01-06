@@ -9,20 +9,4 @@
 // summation(8) -> 36
 // 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8
 
-using System;
-
-public static class Kata 
-{
-    
-    public static int summation(int num)
-    {
-      int count;
-      count = 0;
-      for (int i = 0; i <= num; i++)
-      {
-          count += i;
-      }
-      return count;
-      
-    }
-}
+// https://www.codewars.com/kata/55d24f55d7dd296eb9000030

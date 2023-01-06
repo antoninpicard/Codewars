@@ -10,11 +10,4 @@
 // "-7" --> -7
 
 
-using System;
-  public class Kata
-  {
-    public static int StringToNumber(String str) {
-        //TODO: Convert str into a number
-        return Convert.ToInt32(str);
-  }
-}
+// https://www.codewars.com/kata/544675c6f971f7399a000e79

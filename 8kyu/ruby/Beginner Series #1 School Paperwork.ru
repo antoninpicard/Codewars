@@ -7,12 +7,4 @@
 # n=-5, m=5:  0
 # Waiting for translations and Feedback! Thanks
 
-def paperwork(n, m)
-    if (n<0)
-        n=0;
-    end
-    if (m<0)
-        m=0;
-    end
-    return n*m;
-  end
+# https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd

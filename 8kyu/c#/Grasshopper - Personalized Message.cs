@@ -6,18 +6,4 @@
 // name equals owner	'Hello boss'
 // otherwise	'Hello guest'
 
-public class Kata
-{
-        public static string Greet(string name, string owner)
-        {
-            if (name == owner)
-            {
-                return "Hello boss";
-            }
-            else
-            {
-                return "Hello guest";
-            }
-            return "";
-        }  
-}
+// https://www.codewars.com/kata/5772da22b89313a4d50012f7

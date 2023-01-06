@@ -9,17 +9,5 @@
 // (1, 1) --> 1 (1 since both are same)
 // (-1, 0) --> -1 (-1 + 0 = -1)
 // (-1, 2) --> 2 (-1 + 0 + 1 + 2 = 2)
- using System;
-  using System.Linq;
-  public class Sum
-  {
-     public int GetSum(int a, int b)
-     {
-       int mini = Math.Min(a, b), maxi = Math.Max(a, b);
-       return Enumerable.Range(mini, maxi - mini + 1).Sum();
-         
-         
-         
 
-     }
-  }
+// https://www.codewars.com/kata/55f2b110f61eb01779000053

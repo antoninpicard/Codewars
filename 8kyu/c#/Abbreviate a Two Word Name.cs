@@ -8,14 +8,4 @@
 
 // patrick feeney => P.F
 
-using System;
-using System.Linq;
-using System.Text.RegularExpressions;
-
-public class Kata
-{
-  public static string AbbrevName(string name)
-  {
-    return $"{name[0]}.{name[name.IndexOf(' ')+1]}".ToUpper();
-  }
-}
+// https://www.codewars.com/kata/57eadb7ecd143f4c9c0000a3

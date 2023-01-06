@@ -37,13 +37,4 @@
 
 // You should use for, break and continue in your code. otherwise, your solution may not pass this kata.
 
-function grabDoll(dolls){
-    var bag=[];
-    for (let i = 0; i < dolls.length; i++) {
-    if (dolls[i] === 'Hello Kitty' || dolls[i] === 'Barbie doll') {
-        bag.push(dolls[i])
-      } else continue
-  
-      if (bag.length >= 3) break}
-    return bag;
-  }
+// https://www.codewars.com/kata/5721c189cdd71194c1000b9b

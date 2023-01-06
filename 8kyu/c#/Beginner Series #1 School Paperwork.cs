@@ -7,18 +7,4 @@
 // n=-5, m=5:  0
 // Waiting for translations and Feedback! Thanks!
   
-  using System;
-  public static class Paper
-  {
-    public static int Paperwork(int n, int m)
-    {
-      //#Happy Coding! ^_^
-      if(n<0){
-        n=0;
-      }
-      if(m<0){
-        m=0;
-      }
-      return n*m;
-    }
-  }
+// https://www.codewars.com/kata/55f9b48403f6b87a7c0000bd

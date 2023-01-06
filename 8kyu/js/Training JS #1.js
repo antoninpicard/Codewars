@@ -36,7 +36,4 @@
 
 // In the end, click "Submit" to submit your code pass this kata.
 
-function helloWorld(){
-    var str; console.log("Hello World!");
-     "Hello World!";
-  }
+// https://www.codewars.com/kata/571ec274b1c8d4a61c0000c8
