@@ -4,4 +4,4 @@
 
 // You should not remove or add elements from/to the array.
 
-// https://www.codewars.com/kata/57cfdf34902f6ba3d300001e
+// https://www.codewars.com/kata/57cfdf34902f6ba3d300001e 
